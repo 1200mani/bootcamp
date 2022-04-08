@@ -2,7 +2,8 @@ import React from "react";
 
 const Square = (props) => {
     const classes = (props.className ? `${props.className} square`: `square`)   
-    console.log(props.className);   
+      
+    //console.log(classes);
     return (
         <div
             className={classes}    
